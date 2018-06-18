@@ -9,7 +9,7 @@ print('Hiya' + ' ' + firstName.capitalize() + ' ' + lastName.capitalize())
 
 # One statement per line
 age = int(input("Please enter your age: "))
-print(age)
+print('Hey, you are', age)
 if age < 18:
     age = 18
     print('You are not old enough to skydive buddy')
